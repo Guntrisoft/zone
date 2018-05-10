@@ -1,0 +1,34 @@
+1. Give a few reasons why separating state is useful.
+-----------------------------------------------------
+It separates concerns - helps to ensure that our app is maintainable, flexible and extensible.
+In terms of a React application, application logic fits well with data stores such as Redux and UI Logic (which doesn't need to be known across the application) can live in React's state.
+Reduces code bloat in components.
+
+2. Are there benefits to using ES6 classes and, if so, what are they?
+---------------------------------------------------------------------
+The difference between using ES6 classes vs the more traditional prototype behaviour is mearly 'syntactic sugar' however one could argue the following benefits of using classes:
+
+i)  Simplier syntax
+ii) Easier to set up inheritance hierarchies
+iii) Calling a parent method is easier
+
+3. What is immutability? How can this be useful?
+------------------------------------------------
+Something which is 'unchangeable'. In the context of computer programming it is the practice of ensuring that an object will not change state after it is created.
+
+How can this be useful?
+=======================
+i) Immutable objects are thread safe (safe in the knowledge that another thread will not alter the state of the object).
+ii) Provides an easier way to detect change in an application.
+
+4. What is the spread operator for?
+-----------------------------------
+Spread operator is used to copy the attributes/elements of an object/array and add them to another
+
+e.g.
+
+const x = { y: 1 };
+
+const z = { ...x };
+
+console.log(z); // { y: 1 }
