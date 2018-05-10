@@ -19,7 +19,9 @@ Install
 Running
 -------
 
-npm start Once started visit http://localhost:3000
+    npm start
+
+Once started visit http://localhost:3000
 
 Additional features
 -------------------
@@ -29,13 +31,13 @@ You can use a query string param 'q' to change the search term e.g. http://local
 Linting
 -------
 
-npm run lint
+    npm run lint
 
 
 Tests
 -----
 
-npm run test
+    npm run test
 
 
 Code questions
